@@ -31,7 +31,7 @@ class Passwords:
             password = ''
             for c in range(self.length_of_password):
                 password += random.choice(char)
-            print(password)
+            # print(password)
 
             with open(filemame, 'a') as f:
                 f.write(f'{password}\n')

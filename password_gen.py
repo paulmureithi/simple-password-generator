@@ -37,9 +37,6 @@ class Passwords:
                 f.write(f'{password}\n')
 
 
-
-
-
 if __name__ == '__main__':
     user = Passwords()
     user.password_gen()
